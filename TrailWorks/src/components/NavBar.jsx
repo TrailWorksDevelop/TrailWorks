@@ -5,11 +5,14 @@ import logo from "../img/logo.png";
 const NavBar = () => {
   return (
     <div>
-      <header className="bg-white text-black flex flex-col items-center p-4">
-        <Link to="/">
-          <img src={logo} alt="Logo" className="h-20 md:h-28" />
-        </Link>
-      </header>
+      <header className="bg-white text-black flex flex-col md:flex-row items-center justify-center p-4">
+  <Link to="/" className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+    <img src={logo} alt="Logo" className="h-20 md:h-28" />
+    <h1 className="text-4xl md:text-6xl font-semibold text-center md:text-left">TRAILWORKS</h1>
+  </Link>
+</header>
+
+
 
       {/* Menú de navegación superior */}
       <div className="bg-gray-600 text-white p-2 md:p-3">
