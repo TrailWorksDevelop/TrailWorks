@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgSlider from '../ImgSlider';  // Importa tu componente ImgSlider
-import img1 from '../../img/motul/motulfecha3.jpeg';  // Ejemplo de importación de imágenes
+import img1 from '../../img/motul/motulinfo.jpeg';  // Ejemplo de importación de imágenes
 import { useEffect } from 'react';
 
 const MotulFecha3 = () => {
@@ -44,7 +44,8 @@ const MotulFecha3 = () => {
 
                 {/* Columna del slider de imágenes */}
                 <div className="flex items-center justify-center">
-                    <ImgSlider images={images} />
+                <img src={img1} alt="Trabajos recientes"/>
+                
                 </div>
             </div>
         </div>
