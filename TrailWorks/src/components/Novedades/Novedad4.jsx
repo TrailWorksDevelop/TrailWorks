@@ -9,7 +9,7 @@ import img6 from "../../img/sumrecap/sumrecap6.jpeg"
 import img7 from "../../img/sumrecap/sumrecap7.jpeg"
 import { useEffect } from 'react';
 
-const SummerCamp = () => {
+const Novedad4 = () => {
     const images = [img1, img2, img3, img4, img5, img6, img7];
 
     useEffect(() => {
@@ -46,4 +46,4 @@ const SummerCamp = () => {
     );
 };
 
-export default SummerCamp;
+export default Novedad4;
