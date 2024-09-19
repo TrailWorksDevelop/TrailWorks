@@ -17,7 +17,13 @@ const Novedad3 = () => {
                     <h1 className="text-4xl md:text-7xl font-bold mb-2 text-center md:text-left text-gray-800">AVISO!</h1>
                     <h2 className='text-3xl md:text-5xl font-semibold mb-2 md:mb-12 text-center md:text-left text-gray-700'>Importante</h2>
                     <p className="text-xl md:text-2xl mb-6 text-justify">
-                    Para todos los atletas salvadoreños inscritos al campeonato panamericano de de downhill, el jueves 19 tendremos time training en la pista flow.
+                    Para todos los atletas salvadoreños inscritos al campeonato panamericano de de downhill, VIERENES 20 tendremos time training en la pista flow.
+                    </p>
+                    <p className="text-xl font-semibold md:text-2xl mb-2 text-justify">
+                    2:00 PM : TRACK WALK CON 2 INVITADOS INTERNACIONALES SORPRESA
+                    </p>
+                    <p className="text-xl font-semibold md:text-2xl mb-6 text-justify">
+                    3:30 PM - 5:30 PM : TIMED TRAININGS
                     </p>
                     </div>
                 {/* Columna del slider de imágenes */}
