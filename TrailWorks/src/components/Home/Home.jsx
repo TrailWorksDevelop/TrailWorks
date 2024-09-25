@@ -41,9 +41,22 @@ const Home = () => {
                             <div className="bg-white shadow-lg rounded-lg p-4">
                                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                                     <div className="flex-1">
+                                        <h3 className="text-xl md:text-2xl text-gray-700">STARTLIST: 2024 DHI PANAMERICAN CHAMPIONSHIPS - GROUP A & B</h3>
+                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">22/09/24</p>
+                                        <Link to="/novedad1" className="text-blue-500 hover:underline">Leer más</Link>
+                                    </div>
+                                    <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
+                                        <img src={panams} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="bg-white shadow-lg rounded-lg p-4">
+                                <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                                    <div className="flex-1">
                                         <h3 className="text-xl md:text-2xl text-gray-700">Resultados El Salvador Open.</h3>
                                         <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">16/09/24</p>
-                                        <Link to="/novedad1" className="text-blue-500 hover:underline">Leer más</Link>
+                                        <Link to="/novedad2" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                                         <img src={motul1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
@@ -57,7 +70,7 @@ const Home = () => {
                                     <div className="flex-1">
                                         <h3 className="text-xl md:text-2xl text-gray-700">Mariana Salazar regresa a El Salvador!</h3>
                                         <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">16/09/24</p>
-                                        <Link to="/novedad2" className="text-blue-500 hover:underline">Leer más</Link>
+                                        <Link to="/novedad3" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
                                         <img src={mana1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
@@ -71,25 +84,10 @@ const Home = () => {
                                     <div className="flex-1">
                                         <h3 className="text-xl md:text-2xl text-gray-700">AVISO! Importante para riders de los panam.</h3>
                                         <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">16/09/24</p>
-                                        <Link to="/novedad3" className="text-blue-500 hover:underline">Leer más</Link>
-                                    </div>
-                                    <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                                        <img src={flow1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="bg-white shadow-lg rounded-lg p-4">
-                                <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                                    <div className="flex-1">
-                                        <h3 className="text-xl md:text-2xl text-gray-700">Summer Camp "TrailWorks Pro Academy" 2024 - Photo Recap.</h3>
-                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">2/08/24</p>
                                         <Link to="/novedad4" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                                        <img src={sumerecap} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
-                                        <img src={sumerecap2} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                        <img src={flow1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
                                     </div>
                                 </div>
                             </div>
