@@ -1,6 +1,7 @@
 import React from "react";
 import motuldh from "../../img/motuldhv2.jpeg";
 import panams from "../../img/panams.jpeg";
+import panams2 from "../../img/mylaps.jpg"
 import flow1 from "../../img/ecoflow/aviso1.jpeg";
 import flow2 from "../../img/ecoflow/aviso1.jpeg";
 import sumerecap from "../../img/sumrecap/sumrecap1.jpeg";
@@ -41,12 +42,13 @@ const Home = () => {
                             <div className="bg-white shadow-lg rounded-lg p-4">
                                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                                     <div className="flex-1">
-                                        <h3 className="text-xl md:text-2xl text-gray-700">STARTLIST: 2024 DHI PANAMERICAN CHAMPIONSHIPS - GROUP A & B</h3>
-                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">22/09/24</p>
+                                        <h3 className="text-xl md:text-2xl text-gray-700">Clasificacion Panamericanos 2024 GRUPO B</h3>
+                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">27/09/24</p>
                                         <Link to="/novedad1" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                                        <img src={panams} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                    <img src={panams} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                    <img src={panams2} alt="Trabajos recientes" className="w-full h-44 object-fit md:w-56 md:h-32" />
                                     </div>
                                 </div>
                             </div>
@@ -54,13 +56,12 @@ const Home = () => {
                             <div className="bg-white shadow-lg rounded-lg p-4">
                                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                                     <div className="flex-1">
-                                        <h3 className="text-xl md:text-2xl text-gray-700">Resultados El Salvador Open.</h3>
-                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">16/09/24</p>
+                                        <h3 className="text-xl md:text-2xl text-gray-700">STARTSLIST: 2024 DHI PANAMERICAN CHAMPIONSHIPS - GROUP A & B</h3>
+                                        <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">22/09/24</p>
                                         <Link to="/novedad2" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                                        <img src={motul1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
-                                        <img src={motul2} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                        <img src={panams} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
                                     </div>
                                 </div>
                             </div>
@@ -82,12 +83,13 @@ const Home = () => {
                             <div className="bg-white shadow-lg rounded-lg p-4">
                                 <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                                     <div className="flex-1">
-                                        <h3 className="text-xl md:text-2xl text-gray-700">AVISO! Importante para riders de los panam.</h3>
+                                        <h3 className="text-xl md:text-2xl text-gray-700">Resultados El Salvador Open.</h3>
                                         <p className="text-sm mb-4 md:mb-10 text-gray-600 mt-2">16/09/24</p>
                                         <Link to="/novedad4" className="text-blue-500 hover:underline">Leer más</Link>
                                     </div>
                                     <div className="flex flex-wrap justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                                        <img src={flow1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                        <img src={motul1} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
+                                        <img src={motul2} alt="Trabajos recientes" className="w-full h-48 object-cover md:w-48 md:h-32" />
                                     </div>
                                 </div>
                             </div>
